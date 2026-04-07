@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import "tailwindcss";
-
+@theme {
+  --animate-spin-slow: spin 10s linear infinite;
+}
 * {
   font-family: "Manrope", sans-serif;
 }

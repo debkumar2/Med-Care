@@ -17,13 +17,13 @@ import 'swiper/css/pagination';
 
 const Banner = () => {
     return (
-        <div className='h-[635px] w-full rounded-xl' style={{
+        <div className='h-[635px] w-full rounded-xl overflow-hidden' style={{
             background: `url(${assets.backgroundBg})`,
             backgroundSize: "cover",
             backgroundPosition: "top center",
             backgroundRepeat: "no-repeat",
         }}>
-            <div className='flex justify-center w-full px-8 h-full relative overflow-hidden'>
+            <div className='flex justify-center w-full px-8 h-full relative'>
                 <div className="grid grid-cols-2 h-full">
                     <div className="pt-20">
                         <span className='text-lg font-normal text-[#18bcc7]  inline-block mb-3.5'>Tell us your problem!</span>
@@ -57,12 +57,12 @@ const Banner = () => {
 
                     </div>
                 </div>
-                <div className="absolute w-full bottom-0 left-0 bg-[#18bcc7] py-8 px-32">
-                    <div className='flex gap-2 items-center border-r border-white w-fit pr-8'>
+                <div className="absolute w-full bottom-0 left-0 bg-[#18bcc7] py-8 px-32 flex items-center gap-8">
+                    <div className='flex gap-2 items-center border-r border-white w-fit pr-8 shrink-0'>
                         <IoIosInformationCircleOutline color='white' fontSize={28} />
-                        <p className='font-medium text-lg text-white'>Covid-19 information</p>
+                        <p className='font-medium text-lg text-white whitespace-nowrap'>Covid-19 information</p>
                     </div>
-                    <div className=''>
+                    <div className='flex-1 min-w-0'>
                         <Swiper
                             modules={[Autoplay]}
                             spaceBetween={50}
