@@ -6,6 +6,8 @@ import abooutOne from '../assets/images/aboutOne.jpg';
 import abooutTwo from '../assets/images/aboutTwo.jpg';
 import circleRotate from '../assets/images/circleRotate.webp';
 import doctorLogo from '../assets/images/doctorLogo.webp';
+import svgPatternOne from '../assets/images/svgPatternOne.svg';
+import technologyImgOne from '../assets/images/technologyImgOne.jpg';
 const assets = {
     brandLogo,
     backgroundBg,
@@ -15,6 +17,15 @@ const assets = {
     abooutTwo,
     circleRotate,
     doctorLogo,
+    svgPatternOne,
+    technologyImgOne,
 }
+
+ export const serviceSlide = [
+    { name: 'General Surgery', icon: 'scissors' },
+    { name: 'Cardiology', icon: 'heart' },
+    { name: 'Primary Care', icon: 'stethoscope' },
+    { name: 'Blood Test', icon: 'blood' },
+]
 
 export default assets;

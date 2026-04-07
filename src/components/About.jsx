@@ -45,7 +45,7 @@ const About = () => {
                 </div>
                 <div className='ml-20 lg:max-w-[75%]'>
                     <SubHeading head='Welcome to our medcare hospital.' icon={<BsLayoutTextSidebarReverse fontSize={22} color='#18bcc7' />} subhead='About medcare hospital' />
-                    <p className='text-[#303334] text-lg font-normal'>We value each and every human life placed in our hands and constantly work towards meeting the expectations of our customers and stake holders.</p>
+                    <p className='text-[#848587] text-lg font-normal'>We value each and every human life placed in our hands and constantly work towards meeting the expectations of our customers and stake holders.</p>
                     <div className='flex gap-6 py-10'>
                         <div className="flex gap-4 items-center">
                             <span className='font-extrabold text-6xl text-[#303334]'>722+</span>
