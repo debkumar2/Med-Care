@@ -18,7 +18,7 @@ const Service = () => {
         blood: <MdOutlineBloodtype fontSize={40} />,
     }
     return (
-        <div className='py-[90px] px-12 relative bg-[#edf9fa] relative'>
+        <div className='py-[90px] px-12 relative bg-[#edf9fa] relative rounded-xl'>
             <div className="grid grid-cols-6 grid-rows-1 gap-12">
                 <div className='col-span-2'>
                     <SubHeading subhead='Our advance services' icon={<IoShieldOutline color='#18bcc7' fontSize='24px' />} head='Our clinical departments.' />

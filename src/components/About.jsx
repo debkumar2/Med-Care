@@ -43,8 +43,10 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className='ml-20 lg:max-w-[75%]'>
-                    <SubHeading head='Welcome to our medcare hospital.' icon={<BsLayoutTextSidebarReverse fontSize={22} color='#18bcc7' />} subhead='About medcare hospital' />
+                <div className='ml-20 lg:max-w-[85%]'>
+                    <div className=' lg:max-w-[90%]'>
+                        <SubHeading head='Welcome to our medcare hospital.' icon={<BsLayoutTextSidebarReverse fontSize={22} color='#18bcc7' />} subhead='About medcare hospital' />
+                    </div>
                     <p className='text-[#848587] text-lg font-normal'>We value each and every human life placed in our hands and constantly work towards meeting the expectations of our customers and stake holders.</p>
                     <div className='flex gap-6 py-10'>
                         <div className="flex gap-4 items-center">
