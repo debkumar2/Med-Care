@@ -16,6 +16,7 @@ import line from '../assets/images/line.svg';
 import demoMedical from '../assets/images/demo-medical.webp';
 import footerLogo from '../assets/images/footerLogo.webp';
 import AboutBackground from '../assets/images/AboutPageBackground.jpg';
+import ourVisionBanner from '../assets/images/ourVisionBanner.jpg';
 const assets = {
     brandLogo,
     backgroundBg,
@@ -30,7 +31,8 @@ const assets = {
     line,
     demoMedical,
     footerLogo,
-    AboutBackground
+    AboutBackground,
+    ourVisionBanner
 }
 
  export const serviceSlide = [
