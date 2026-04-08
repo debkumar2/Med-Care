@@ -1,24 +1,21 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import Banner from './components/Banner'
-import About from './components/About'
-import Service from './components/Service'
-import Technologies from './components/Technologies'
-import FeatureText from './components/FeatureText'
-import DoctorsList from './components/DoctorsList'
-import Appointment from './components/Appoinment'
+import Footer from './components/Footer'
+import SubFooter from './components/SubFooter'
+import Home from './pages/Home/Home'
+import { Route, Routes } from 'react-router-dom'
+import AboutPage from './pages/About/AboutPage'
 
 const App = () => {
   return (
     <div className='max-w-[1231px] mx-auto'>
-      <Navbar/>
-      <Banner/>
-      <About/>
-      <Service/>
-      <Technologies/>
-      <FeatureText/>
-      <DoctorsList/>
-      <Appointment/>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/about' element={<AboutPage />}></Route>
+      </Routes>
+      <Footer />
+      <SubFooter />
     </div>
   )
 }

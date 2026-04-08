@@ -10,10 +10,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Swiper core modules
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 
-// CSS
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 
 const Banner = () => {
     return (

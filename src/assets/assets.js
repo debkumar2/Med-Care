@@ -13,6 +13,9 @@ import doctorTwo from '../assets/images/doctorTwo.jpg';
 import doctorThree from '../assets/images/doctorThree.jpg';
 import doctorFour from '../assets/images/doctorFour.jpg';
 import line from '../assets/images/line.svg';
+import demoMedical from '../assets/images/demo-medical.webp';
+import footerLogo from '../assets/images/footerLogo.webp';
+import AboutBackground from '../assets/images/AboutPageBackground.jpg';
 const assets = {
     brandLogo,
     backgroundBg,
@@ -25,6 +28,9 @@ const assets = {
     svgPatternOne,
     technologyImgOne,
     line,
+    demoMedical,
+    footerLogo,
+    AboutBackground
 }
 
  export const serviceSlide = [
